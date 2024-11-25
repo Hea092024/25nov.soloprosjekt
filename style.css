@@ -13,6 +13,8 @@ DARK BLUE: #1D3557
     --aqua:#A8DADC;
     --lightblue:#457B9D;
     --darkblue:#1D3557;
+    --black: #000000;
+    --dark-green: #4c956c;
 }
 
 body {
@@ -21,5 +23,28 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 300px;
 }
+
+h1{
+    display: block;
+    border: 5px solid var(--black);
+    color: var(--dark-green);
+}
+
+#activities-section {
+  display: flex;
+  gap: 2px; 
+  justify-content: space-around;
+}
+
+.hover-image {
+  
+  max-width: 400px; /* Set a max width for the images */
+  transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+  transform: scale(1.7);
+}
+
