@@ -15,9 +15,18 @@ DARK BLUE: #1D3557
     --darkblue:#1D3557;
     --black: #000000;
     --dark-green: #4c956c;
+    --darkseagreen: #8fbc8f;
+}
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    background-color: var(--darkseagreen);
 }
 
 body {
+    
     margin: 0;
     text-align: center;
 }
@@ -33,11 +42,20 @@ img {
 h1{
     font-size: 50px;
     color: var(--dark-green);
+    text-shadow: 3px 2px 2px var(--darkblue);
 }
 
-h2,h3{
+h2{
+    text-shadow: 1px 1px 1px var(--darkblue);
     display: block;
     font-size: 2em;
+    color: var(--dark-green);
+}
+
+h3{
+    text-shadow: 1px 1px 1px var(--darkblue);
+    display: block;
+    font-size: 3em;
     color: var(--dark-green);
 }
 
