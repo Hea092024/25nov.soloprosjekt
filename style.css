@@ -7,6 +7,13 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
+:root{
+    --red:#E63946;
+    --light:#F1FAEE;
+    --aqua:#A8DADC;
+    --lightblue:#457B9D;
+    --darkblue:#1D3557;
+}
 
 body {
     margin: 0;
