@@ -26,9 +26,18 @@ img {
     width: 300px;
 }
 
+#hero-image {
+    width: 100%;
+}
+
 h1{
+    font-size: 50px;
+    color: var(--dark-green);
+}
+
+h2,h3{
     display: block;
-    border: 5px solid var(--black);
+    font-size: 2em;
     color: var(--dark-green);
 }
 
